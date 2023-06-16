@@ -6,7 +6,7 @@ const movieSchema = new Schema({
     type: String,
     required: 'Leave a review',
     minlength: 1,
-    maxlength: 280,
+    maxlength: 999,
     trim: true,
   },
   movieName: {
@@ -25,9 +25,9 @@ const movieSchema = new Schema({
         type: String,
         required: true,
         minlength: 1,
-        maxlength: 280,
+        maxlength: 999,
       },
-      reviewAuthor: {
+      reviewName: {
         type: String,
         required: true,
       },

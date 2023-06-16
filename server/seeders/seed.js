@@ -12,7 +12,7 @@ db.once('open', async () => {
 
     for (let i = 0; i < movieSeeds.length; i++) {
       const { _id, movieInfo } = await Movie.create(movieSeeds[i]);
-      const user = await user.findOneAndUpdate(
+      const user = await User.findOneAndUpdate(
         { username: movieInfo },
         {
           $addToSet: {

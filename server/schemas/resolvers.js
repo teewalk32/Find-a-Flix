@@ -48,7 +48,7 @@ const resolvers = {
 
       return { token, user };
     },
-    addThought: async (parent, { thoughtText }, context) => {
+    addThought: async (parent, { movieText }, context) => {
       if (context.user) {
         const movie = await Movie.create({
           thoughtText,
