@@ -1,42 +1,162 @@
 [
     {
-        "movie": "Superman"
-        "movieInfo": 
+        "movieName": "Spider-Man Across The Spider-Verse (2023)",
+        "movieText": "Superpowered teen Miles Morales embarks on a madcap adventure across the Multiverse, where he joins forces with a cohort of alternate-universe Spider-People, all determined to protect the Multiverse from disruption. It is then up to Miles to bring order to chaos as his new allies butt heads over how to vanquish a new, powerful enemy."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "The Blackening (2023)",
+        "movieText": "Seven black friends who go away for the weekend only to find themselves trapped in a cabin with a killer who has a vendetta. Will their street smarts and knowledge of horror movies help them stay alive? Probably not."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "Transformers: Rise of the Beasts (2023)",
+        "movieText": "In the inner city, a troubled young man named Noah finds himself down on his luck. Yet his seemingly wayward life takes an unexpected turn when he stumbles upon a race of giant robots with the ability to transform into robotic animals. When the earth comes under threat from a sinister force, it is up to Noah and his newfound allies to protect humanity from a seemingly unstoppable threat."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "The Little Mermaid (2023)",
+        "movieText": "Ariel, a mermaid princess, is curious about all things human. Ariel asks sea witch Ursula to take her voice in exchange for legs, as this is the only way she could explore the human world of Eric, her love interest. Her frustrated father, King Triton, is worried. But her trusted sea creature friends Flounder and Sebastian still watch over her."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "Guardians of the Galaxy Vol.3 (2023)",
+        "movieText": "Following the upsetting loss of his love, Gamora (Zoe Saldana), Peter Quill (Chris Pratt) faces the challenging task of boosting his ragtag team's morale to embark on another no-holds-barred quest across the universe. Quill and his allies must endure new tests to their bonds or face the end of their run as Guardians. James Gunn writes and directs the third installment in the Marvel franchise. Co-starring Dave Bautista, Vin Diesel, Bradley Cooper, and Karen Gillan."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "The Boogeyman (2023)",
+        "movieText": "Psychiatrist Dr. Harper sits down with a new patient, Lester Billings, who describes the grisly deaths of his three children over the course of several years. When his wife takes a short trip, a sinister presence stalks Billings and his child. Amidst his panic, Billings leaves his child alone for a moment and later discovers the child strangled to death. As Billings concludes his tale, he soon learns an eerie secret about his new confidant."
     },
     {
-        "movie": 
-        "movieInfo":
+        "movieName": "Fast X (2023)",
+        "movieText": "This installment in the Fast and Furious franchise chronicles the rise of a new threat against Dom and his loved ones. Years after his father, Hernan Reyes, was defeated by Dom, Dante seeks vengeance, and nothing can stop him. Dom must confront Dante without risking the lives of his own family. But Dante's already after Dom's son Brian."
     },
     {
-        "movie":
-        "movieInfo": 
+        "movieName": "The Super Mario Bros.Movie (2023)",
+        "movieText": "Based on the Super Mario video games, the animated film follows Mario on his adventures with his friends. Mario joins forces with Princess Peach and Toad. The trio is in search of Mario’s brother Luigi. Together, they hope to defeat the evil Bowser and save the Mushroom Kingdom from his destructive schemes."
     },
     {
-        "movie": 
-        "movieInfo": 
+        "movieName": "About My Father (2023)",
+        "movieText": "The family comedy follows the hilarious union of two families with nothing in common. Engaged couple Sebastian and Ellie are yet to introduce their families to each other. While Ellie feels excited, Sebastian is anxious about the cultural divide between Ellie's ultrarich background and his humble origins. After planning a family weekend getaway, Sebastian invites his father, Salvo, to meet his in-laws. What follows is an exploration of why family matters above all."
     },
     {
-        "movie": 
-        "movieInfo":
+        "movieName": "The Machine (2023)",
+        "movieText": "Bert and his father are abducted by a Russian mafia woman whose father was robbed by Bert twenty years ago. What follows is a tie-in of Bert's absurd college trip flashback in Russia, where he spent the summer with Russian gangsters, and the modern-day consequences of his actions back then, mainly creating a mafia family out to get revenge on him."
+    },
+    {
+        "movieName": "The Flash (2023)",
+        "movieText": "The Flash sequel follows Barry Allen on time-bending adventures that alter the course of history. Harnessing his super speed to travel back in time and save his family, Allen believes he is making the world a better place. He soon discovers that his mission leads to the creation of a multiverse where General Zod is on the rise and there are no superheroes to fight him. Allen must navigate the multiverse to find Batman and convince him to save the world."
+    },
+    {
+        "movieName": "Asteriod City (2023)",
+        "movieText": "Written and directed by Wes Anderson, the romantic comedy takes place in an American desert town in the mid-fifties. The Junior Stargazer Convention is a landmark astronomy event that attracts stargazers of different ages. A group of students and their parents visit the town to attend the convention. What follows is an unexpected exchange of ideas and experiences that lead to eye-opening revelations. The film co-stars Tom Hanks, Margot Robbie, Scarlett Johansson, Tilda Swinton, Steve Carell, Bryan Cranston, and Edward Norton."
+    },
+    {
+        "movieName": "The Meg 2: The Trench (2023)",
+        "movieText": "Sequel to the 2018 film 'The Meg'."
+    },
+    {
+        "movieName": "John Wick 4 (2023)",
+        "movieText": "Directed by Chad Stahelski, the fourth installment of the John Wick franchise focuses on the assassin`s ultimate calling, beating The High Table once and for all. But it`s not an easy mission, as Wick must first confront a new, dangerous enemy with a massive global network. If he succeeds, he can finally free himself from the shackles of a violent life. The action thriller co-stars Keanu Reeves, Bill Skarsgård, Laurence Fishburne, Ian McShane, and Donnie Yen."
+    },
+    {
+        "movieName": "Ant-Man and the Wasp: Quantumania (2023)",
+        "movieText": "The latest installment in the Ant-Man franchise follows Scott Lang`s adventures in the quantum world. Accompanied by Hope Van Dyne and her parents, Lang and his daughter Cassie explore the world`s strange dynamics. They soon encounter dangerous creatures that defy the laws of nature. They must work together to return home. Directed by Peyton Reed. Starring Paul Rudd, Evangeline Lilly, Jonathan Majors, Michael Douglas, and Michelle Pfeiffer."
+    },
+    {
+        "movieName": "Evil Dead Rise (2023)",
+        "movieText": "Written and directed by Lee Cronin, the latest installment of the Evil Dead franchise centers on a complicated family and the demons that haunt them. Estranged sisters Beth and Ellie reunite after many years. Beth drops by Ellie`s apartment in Los Angeles where she raises her three kids as a single mother. The sisters discover an ominous book that unleashes a flesh-possessing demon. When the demon takes control of Beth, Ellie and her kids face the worst nightmare of their lives."
+    },
+    {
+        "movieName": "Moonage Daydream (2023)",
+        "movieText": "Documentarist Brett Morgen spent about five years going through David Bowie's personal libraries, master recordings, and archives as sanctioned by the late musician's estate in the hopes of understanding and deconstructing the musical artistry and spiritual journey of the English global icon. The resulting film features narration in Bowie's own voice as the story presents how he crafted his multidisciplinary artistry, working not only in music and film but also in painting, dance, sculpture, theater, video and audio collage, screenwriting, and acting."
+    },
+    {
+        "movieName": "Scream VI (2023)",
+        "movieText": "Bored of the lackluster killings in the quaint town of Woodsboro, the sinister and notorious serial killer Ghostface leaves his small-town stomping grounds behind, pursuing more ambitious conquests in New York City. Determined to overthrow his reign of terror once and for all, a cohort of familiar faces returns to seek justice for the bloodshed. Matt Bettinelli-Olpin and Tyler Gillett co-direct the sixth installment in the horror franchise. Co-starring Jenna Ortega, Courteney Cox, and Melissa Barrera."
+    },
+    {
+        "movieName": "Two English Girls (2023)",
+        "movieText": "Among the great François Truffaut films, Two English Girls is likely the least known. Its story of a romantic triangle inevitably invites comparison to Truffaut's Jules and Jim, and not surprisingly, as both are based on novels by Henri-Pierre Roche (the only two novels Roche authored). Truffaut regular Jean-Pierre Leaud is Claude, the Frenchman who on a turn-of-the-century trip to Wales with his mother meets the Brown sisters, Anne (Kika Markham) and Muriel (Stacey Tendeter). Anne is a sculptress and more outgoing than Muriel, who is a teacher. Over the next 20 years, affections between Claude and the sisters shift, but consummation of any romantic feelings is often blocked by distance, a pair of very strong-willed mothers, and the conventions of the time. Claude becomes an art critic, and the trio each has to express blocked passions in his or her work. Disappointed by the mild reception that greeted the original version of the film, Truffaut determined to restore over 20 minutes of footage to the film, a project he completed just before he died in 1984. "
+    },
+    {
+        "movieName": "Air (2023)",
+        "movieText": "Directed by Ben Affleck, the biographical drama tells the true story of shoe salesman Sonny Vaccaro. Vaccaro works in the basketball division of Nike. Still in its early stages, the division aims to fuse sports and culture through Nike`s sportswear. When Vaccaro meets a rookie basketballer called Michael Jordan, he makes the risky decision to offer him a brand partnership. Together, Jordan and Nike change the history of sports forever. Starring Matt Damon, Jason Bateman, Viola Davis, and Chris Messina."
+    },
+    {
+        "movieName": "Shazam! Fury of the Gods (2023)",
+        "movieText": "Seemingly ordinary teenager Billy Batson (Asher Angel) possesses the unusual ability to transform into a superhero alter ego in an adult body (Zachary Levi) with just a single word. As Batson continues to hone his crimefighting skills and tackle new challenges, he faces a significant threat that puts his life, livelihood, and friends in jeopardy. David F. Sandberg directs the sequel to the 2019 film. Co-starring Helen Mirren, Lucy Liu, Adam Brody, and Djimon Hounsou."
+    },
+    {
+        "movieName": "Are You There God? It's Me, Margaret (2023)",
+        "movieText": "A plucky eleven-year-old named Margaret (Abby Ryder Fortson) finds her life on the cusp of change as her family uproots from the heart of the city to a quiet suburban neighborhood, leaving her grandmother (Kathy Bates), her confidant, behind. Margaret must then navigate the ups and downs of adolescence, including new friends, new feelings, and, ultimately, a new sense of self. Kelly Fremon Craig directs the coming-of-age comedy based on the novel of the same name by Judy Blume. Co-starring Rachel McAdams."
+    },
+    {
+        "movieName": "Knock At The Cabin (2023)",
+        "movieText": "Eric (Ben Aldridge) and Andrew (Jonathan Groff) embark on a relaxing family holiday in the wilderness with their young daughter, Wen (Kristen Cui). Yet their idyllic vision soon sours into a nightmare when the leader of an enigmatic extremist group, Leonard (Dave Bautista), takes the family hostage, claiming that the choices Eric and Andrew make can either avert or herald the coming apocalypse. Faced with an unthinkable choice, the couple struggles to survive and protect their daughter at all costs. M. Night Shyamalan co-writes and directs the thriller. Co-starring Rupert Grint."
+    },
+    {
+        "movieName": "Missing (2023)",
+        "movieText": "A young teen named June (Storm Reid) finds her nightmare confirmed when her mother (Nia Long) inexplicably vanishes while on a Colombian vacation with her boyfriend. When the authorities thwart her quest for answers, June then relies on the contemporary technology at her disposal to know the truth, encountering a web of secrets about her mother that she struggles to fathom. Nicholas D. Johnson and Will Merrick co-direct the standalone sequel to the 2018 film. Co-starring Daniel Henney and Ken Leung."
+    },
+    {
+        "movieName": "Renfield (2023)",
+        "movieText": "Director Chris McKay retells the classic tale of Dracula with a twist. Count Dracula (Nicolas Cage) has relied on his assistant, R. M. Renfield (Nicholas Hoult), for centuries. One day, Renfield decides to exit this toxic relationship, hoping to start a new life. Wandering the streets of New Orleans, he meets and falls in love with traffic cop Rebecca Quincy (Awkwafina). But Dracula`s control over Renfield`s life is far from over."
+    },
+    {
+        "movieName": "Sharper (2023)",
+        "movieText": "Sharper, directed by Benjamin Caron, is the story of a con artist and the Manhattan billionaires she takes on. Madeline is very talented at what she does. So much so that she decides to go for the ultimate targets - a series of the wealthiest people in Manhattan. But in New York, nothing is as it seems, and everyone is suspect, whether they're from Fifth Avenue penthouses or from the darker, seedier parts of Queens."
+    },
+    {
+        "movieName": "80 for Brady (2023)",
+        "movieText": "A quartet of older women keeps their bonds of friendship strong through life's struggles by watching football. After decades of dreaming, the women finally decide to make a pilgrimage to the Super Bowl for the once-in-a-lifetime chance to meet their favorite player, noteworthy NFL mainstay Tom Brady. Along the way, a series of hijinks ensue. Kyle Marvin directs the sports comedy-drama. Co-starring Lily Tomlin, Jane Fonda, Rita Moreno, and Sally Field."
+    },
+    {
+        "movieName": "Creed III (2023)",
+        "movieText": "Reaping the benefits of his booming career and enjoying his stable family life, boxing sensation Adonis Creed (Michael B. Jordan) feels unstoppable. However, the unexpected return of his childhood friend and former rising boxing star (Jonathan Majors), who took the fall for a petty crime the duo committed years ago, forces Adonis to contend with long-buried demons from his past. Michael B. Jordan makes his directorial debut with the third installment to the boxing franchise. Co-starring Tessa Thompson and Wood Harris."
+    },
+    {
+        "movieName": "Dungeons & Dragons: Honor Among Thieves (2023)",
+        "movieText": "Based on the popular roleplaying game, the film follows a band of thieves on the hunt for a valuable relic. Under the leadership of a talented thief named Edgin, the band goes on adventures to collect bounties across the land. When they target a lost artifact, the band messes with the wrong people and must play the game right to win it all. Starring Chris Pine, Michelle Rodriguez, Rege-Jean Page, Justice Smith, and Hugh Grant."
+    },
+    {
+        "movieName": "The Old Way (2023)",
+        "movieText": "In the American West, a grizzled, middle-aged widower named Colton Briggs (Nicolas Cage) struggles to provide a stable home for his young daughter, Brooke (Ryan Kiera Armstrong). When the son of his murder victim (Noah Le Gros) appears on a quest for vengeance, the man must then reckon with his dark past to protect his daughter from harm. Brett Donowho directs the Western. Co-starring Kerry Knuppe, Clint Howard, and Abraham Benrubi."
+    },
+    {
+        "movieName": "Infinity Pool (2023)",
+        "movieText": "Infinity Pool, directed by Brandon Cronenberg, tells the dark tale of James and Em Foster, whose all-inclusive dream vacation turns into horror. The island of La Tolqa is perfect until a fatal accident when the car James is driving collides with a resident and kills him. This is when the Fosters discover that all crimes on the island are punishable by death. However, La Tolqa also has a way out: a clone can be created to be killed in the condemned's place. This process throws the Fosters into the dark, hedonistic world of La Tolqa that no outsider ever sees."
+    },
+    {
+        "movieName": "Polite Society (2023)",
+        "movieText": "When her demure older sister, Lena (Ritu Arya), announces her impending nuptials, Ria Khan (Priya Kansara) vows to thwart the marriage by whatever means necessary, believing she is saving her sister from an uncertain and grim fate. Armed with an overactive imagination and a ragtag gaggle of loyal friends, Ria concocts an outlandish heist to protect her sister's independence in the name of feminism. Nida Manzoor writes and directs the action comedy. Co-starring Renu Brindle."
+    },
+    {
+        "movieName": "Cocaine Bear (2023)",
+        "movieText": "When her demure older sister, Lena (Ritu Arya), announces her impending nuptials, Ria Khan (Priya Kansara) vows to thwart the marriage by whatever means necessary, believing she is saving her sister from an uncertain and grim fate. Armed with an overactive imagination and a ragtag gaggle of loyal friends, Ria concocts an outlandish heist to protect her sister's independence in the name of feminism. Nida Manzoor writes and directs the action comedy. Co-starring Renu Brindle."
+    },
+    {
+        "movieName": "Barbie (2023)",
+        "movieText": "Sony Pictures and Mattel team up for a live-action Barbie feature film."
+    },
+    {
+        "movieName": "The Covenant (2023)",
+        "movieText": "John Kinley (Jake Gyllenhaal), a sergeant in the United States Army, embarks on his final tour of duty in Afghanistan after years of serving his country. Yet his last quest proves ill-fated as he suffers a substantial injury at the hands of his enemy. It is then up to his partner, a local interpreter named Ahmed (Dar Salim), to deliver John to safety while crossing the treacherous, war-torn Afghan landscape. Guy Ritchie co-writes and directs the war thriller. Co-starring Alexander Ludwig and Jonny Lee Miller."
+    },
+    {
+        "movieName": "His Only Son (2023)",
+        "movieText": "Abraham (Nicolas Mouawad), a man of faith, receives an impossible edict from his God. Abraham must then take his son Isaac (Edaan Moskowitz) on an arduous quest for three days and three nights to a site of ritualistic sacrifice, where Abraham must then prove his faith once and for all. David Helling writes and directs the drama based on religious events. Co-starring Sara Seyed, Daniel da Silva, and Scot Cooper."
+    },
+    {
+        "movieName": "Paint (2023)",
+        "movieText": "Eccentric artist Carl Nargle (Owen Wilson) believes he is at the peak of his career, sporting a thriving following in his native Vermont, a well-appointed custom van to travel to his painting locations, and a signature style. However, he soon finds his world thrown into disarray when a younger, more talented artist arrives on the scene and turns the heads of Carl's devoted fanbase. Brit McAdams directs the comedy. Co-starring Stephen Root and Michaela Watkins."
+    },
+    {
+        "movieName": "A Thousand and One (2023)",
+        "movieText": "The foster care system can be punishing for children, especially when they are living in a hostile situation. Inez (Teyana Taylor) commits a necessary crime and kidnaps a six-year-old boy named Terry (Aaron Kingsley Adetola). Now, the new mother and son duo must try to live a normal life, albeit in a turbulent and changing New York City. Inez must do everything in her power to protect, and hold onto, her new son. Directed by A.V. Rockwell."
+    },
+    {
+        "movieName": "Winnie The Pooh: Blood and Honey (2023)",
+        "movieText": "Written and directed by Rhys Frake-Waterfield, the horror film offers a dark twist on the beloved Winnie the Pooh story. When Winnie the Pooh and Piglet find out that Christopher Robin is leaving them to go to college, they have a difficult time with this transition. They feel abandoned, and things go out of control when they go on a bloodthirsty rampage. Starring Natasha Tosini, Craig David Dowsett, and Amber Doig-Thorne."
+    },
+    {
+        "movieName": "(2023)",
+        "movieText": "Directed by Vasilis Katsoupis, this psychological thriller features Willem Dafoe as Nemo, a high-end thief focused on snatching expensive artworks that are mostly privately owned. The story unfolds during his latest heist inside a New York penthouse residence. However, as he is doing his deed, things go awry. Soon, he finds himself trapped inside the posh place, with nothing but evidence of a lavish lifestyle and the expensive artworks he`s planning to steal. To his horror, there`s not even some food or water there. So begins his quest to escape or to survive, whichever comes first."
     }
 ]
