@@ -50,7 +50,7 @@ const ReviewForm = ({ movieId }) => {
               <textarea
                 name="reviewText"
                 placeholder="Add your review..."
-                value={commentText}
+                value={reviewText}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
                 onChange={handleChange}
