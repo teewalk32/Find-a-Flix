@@ -12,7 +12,7 @@ As a group we were highly motivated to complete this project because this is our
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Wire-Frame](#wire-frame)
-M- [Installation](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
