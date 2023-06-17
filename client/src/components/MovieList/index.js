@@ -37,6 +37,7 @@ const MovieList = ({
               )}
             </h4>
             <div className="card-body bg-light p-2">
+            <img src={movie.poster} alt="Movie Poster" className="movie-poster" />
               <p>{movie.movieText}</p>
             </div>
             <Link

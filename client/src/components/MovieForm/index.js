@@ -37,11 +37,13 @@ const MovieForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
+    const poster = { _id: 'posterId' };
     try {
       const { data } = await addMovie({
         variables: {
             movieText,
-            movieAuthor: Auth.getProfile().data.username,
+            poster: poster._id,
+            movieName: Auth.getProfile().data.username,
         },
       });
 

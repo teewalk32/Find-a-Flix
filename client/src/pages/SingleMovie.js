@@ -32,6 +32,7 @@ const SingleMovie = () => {
         </span>
       </h3>
       <div className="bg-light py-4">
+      <img src={movie.poster} alt={movie.movieName} className="poster-image" />
         <blockquote
           className="p-4"
           style={{

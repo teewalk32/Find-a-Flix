@@ -14,6 +14,11 @@ const movieSchema = new Schema({
     required: true,
     trim: true,
   },
+  poster: {
+    type: String,
+    required: true,
+    trim: true,
+  },
   createdAt: {
     type: Date,
     default: Date.now,

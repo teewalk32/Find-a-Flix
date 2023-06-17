@@ -18,6 +18,7 @@ export const QUERY_MOVIES = gql`
     movies {
       _id
       movieText
+      poster
       movieName
       createdAt
     }
@@ -28,6 +29,7 @@ export const QUERY_SINGLE_MOVIE = gql`
     movie(movieId: $movieId) {
       _id
       movieText
+      poster
       movieName
       createdAt
       reviews {
@@ -48,6 +50,7 @@ export const QUERY_ME = gql`
       movies {
         _id
         movieText
+        poster
         movieName
         createdAt
       }

@@ -9,12 +9,15 @@ const ReviewForm = ({ movieId }) => {
   const [addReview, { error }] = useMutation(ADD_REVIEW);
   const handleFormSubmit = async (event) => {
     event.preventDefault();
+
+  
+
     try {
       const { data } = await addReview({
         variables: {
           movieId,
           reviewText,
-          commentAuthor: Auth.getProfile().data.username,
+          reviewName: Auth.getProfile().data.username,
         },
       });
       setReviewText('');
@@ -24,7 +27,7 @@ const ReviewForm = ({ movieId }) => {
   };
   const handleChange = (event) => {
     const { name, value } = event.target;
-    if (name === 'reviewText' && value.length <= 280) {
+    if (name === 'reviewText' && value.length <= 999) {
       setReviewText(value);
       setCharacterCount(value.length);
     }
@@ -36,10 +39,10 @@ const ReviewForm = ({ movieId }) => {
         <>
           <p
             className={`m-0 ${
-              characterCount === 280 || error ? 'text-danger' : ''
+              characterCount === 999 || error ? 'text-danger' : ''
             }`}
           >
-            Character Count: {characterCount}/280
+            Character Count: {characterCount}/999
             {error && <span className="ml-2">{error.message}</span>}
           </p>
           <form

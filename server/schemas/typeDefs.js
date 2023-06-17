@@ -11,6 +11,7 @@ const typeDefs = gql`
 
   type Movie {
     _id: ID
+    poster: String
     movieText: String
     movieName: String
     createdAt: String

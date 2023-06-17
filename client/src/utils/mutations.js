@@ -25,10 +25,11 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_MOVIE = gql`
-  mutation addMovie($MovieText: String!) {
-    addMovie(movieText: $movieText) {
+  mutation addMovie($movieText: String!, $poster: String!) {
+    addMovie(movieText: $movieText, poster: $poster) { 
       _id
       movieText
+      poster
       movieName
       createdAt
       reviews {
@@ -40,10 +41,11 @@ export const ADD_MOVIE = gql`
 `;
 
 export const ADD_REVIEW = gql`
-  mutation addReview($movieId: ID!, $reviewText: String!) {
-    addReview(movieId: $movieId, reviewText: $reviewText) {
+  mutation addReview($movieId: ID!, $reviewText: String!, $poster: String!) {
+    addReview(movieId: $movieId, reviewText: $reviewText, poster: $poster) {
       _id
       movieText
+      poster
       movieName
       createdAt
       reviews {
