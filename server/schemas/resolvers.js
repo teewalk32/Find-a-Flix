@@ -64,7 +64,7 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    addReview: async (parent, { MovieId, ReviewText }, context) => {
+    addReview: async (parent, { movieId, reviewText }, context) => {
       if (context.user) {
         return Movie.findOneAndUpdate(
           { _id: movieId },
@@ -105,7 +105,7 @@ const resolvers = {
             $pull: {
               reviews: {
                 _id: reviewId,
-                movieName: context.user.username,
+                reviewName: context.user.username,
               },
             },
           },

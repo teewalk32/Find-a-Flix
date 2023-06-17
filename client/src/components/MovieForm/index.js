@@ -37,12 +37,11 @@ const MovieForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    const poster = { _id: 'posterId' };
     try {
       const { data } = await addMovie({
         variables: {
             movieText,
-            poster: poster._id,
+            // poster: poster._id,
             movieName: Auth.getProfile().data.username,
         },
       });
@@ -56,7 +55,7 @@ const MovieForm = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    if (name === 'movieText' && value.length <= 280) {
+    if (name === 'movieText' && value.length <= 999) {
       setMovieText(value);
       setCharacterCount(value.length);
     }
@@ -70,16 +69,16 @@ const MovieForm = () => {
         <>
           <p
             className={`m-0 ${
-              characterCount === 280 || error ? 'text-danger' : ''
+              characterCount === 999 || error ? 'text-danger' : ''
             }`}
           >
-            Character Count: {characterCount}/280
+            Character Count: {characterCount}/999
           </p>
           <form
             className="flex-row justify-center justify-space-between-md align-center"
             onSubmit={handleFormSubmit}
           >
-            <div className="col-12 col-lg-9">
+            <div className="col-sm-2">
               <textarea
                 name="movieText"
                 placeholder="Movie name here..."
@@ -90,13 +89,13 @@ const MovieForm = () => {
               ></textarea>
             </div>
 
-            <div className="col-12 col-lg-3">
+            <div className="col-sm-2">
               <button className="btn btn-primary btn-block py-3" type="submit">
                 Add Movie
               </button>
             </div>
             {error && (
-              <div className="col-12 my-3 bg-danger text-white p-3">
+              <div className="col-sm-2 bg-danger text-white p-3">
                 {error.message}
               </div>
             )}
@@ -109,6 +108,7 @@ const MovieForm = () => {
         </p>
       )}
     </div>
+    
   );
 };
 

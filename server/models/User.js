@@ -19,10 +19,10 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  reviews: [
+  movies: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'review',
+      ref: 'movie',
     },
   ],
 });

@@ -9,19 +9,19 @@ const Header = () => {
     Auth.logout();
   };
   return (
-    <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
+    <header className="bg-primary text-light mb-4 py-3 flex-row align-center head">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <div>
           <Link className="text-light" to="/">
-            <h1 className="m-0">Popular Movies</h1>
+            <h1 className="m-0">New Movies</h1>
           </Link>
-          <p className="m-0">Stay entertained!!!</p>
+          <p className="m-0">Stay entertained with the newest movies!!!</p>
         </div>
         <div>
           {Auth.loggedIn() ? (
             <>
               <Link className="btn btn-lg btn-info m-2" to="/me">
-                {Auth.getProfile().data.username}'s profile
+                {Auth.getProfile().data.username}'s Movie List
               </Link>
               <button className="btn btn-lg btn-light m-2" onClick={logout}>
                 Logout

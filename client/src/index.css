@@ -12,6 +12,11 @@
   /* 2 */
 }
 
+header {
+  background-color: #000000;
+}
+
+
 /* Sections
    ========================================================================== */
 /**
@@ -369,7 +374,7 @@ body {
     Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   font-size: 16px;
-  color: white;
+  color: #2d3e50;
 }
 
 h1,
@@ -933,11 +938,11 @@ a:hover {
 }
 
 .bg-info {
-  background-color: #1bbc9b !important;
+  background-color: #2d3e50 !important;
 }
 
 .bg-danger {
-  background-color: #e64c66 !important;
+  background-color: #2d3e50 !important;
 }
 
 .bg-light {
@@ -1039,8 +1044,8 @@ a:hover {
 }
 
 .btn.btn-info {
-  background-color: #1bbc9b;
-  color: #ffffff;
+  background-color: #d9e9e8;
+  color: ;
 }
 
 .btn.btn-info:hover {
@@ -1093,7 +1098,7 @@ a:hover {
 }
 
 .card {
-  border: 1px solid #1a1a1a;
+  border: 15px solid grey;
   margin-bottom: 1rem;
 }
 
@@ -1204,9 +1209,9 @@ label form [type='radio'] {
   flex-wrap: wrap;
 }
 
-.flex-no-wrap {
+/* .flex-no-wrap {
   flex-wrap: nowrap;
-}
+} */
 
 .justify-space-between {
   justify-content: space-between;
