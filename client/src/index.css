@@ -21,17 +21,19 @@ body {
   margin: 0;
 }
 
+
+  .movie-poster {
+    width: 400px;
+    height: auto; 
+  }
+
+
 /**
  * Render the `main` element consistently in IE.
  */
 main {
   display: block;
 }
-/* main {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
-  gap: 10px; /* Add a gap between forms */
-/* } */ */
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
