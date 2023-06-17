@@ -10,11 +10,11 @@ const resolvers = {
     user: async (parent, { username }) => {
       return User.findOne({ username }).populate('movies');
     },
-    thoughts: async (parent, { username }) => {
+    movies: async (parent, { username }) => {
       const params = username ? { username } : {};
       return Movie.find(params).sort({ createdAt: -1 });
     },
-    thought: async (parent, { movieId }) => {
+    movie: async (parent, { movieId }) => {
       return Movie.findOne({ _id: movieId });
     },
     me: async (parent, args, context) => {
@@ -48,11 +48,11 @@ const resolvers = {
 
       return { token, user };
     },
-    addThought: async (parent, { movieText }, context) => {
+    addMovie: async (parent, { movieText }, context) => {
       if (context.user) {
         const movie = await Movie.create({
-          thoughtText,
-          thoughtAuthor: context.user.username,
+          movieText,
+          movieName: context.user.username,
         });
 
         await User.findOneAndUpdate(
@@ -81,7 +81,7 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    removeReview: async (parent, { movieId }, context) => {
+    removeMovie: async (parent, { movieId }, context) => {
       if (context.user) {
         const movie = await Movie.findOneAndDelete({
           _id: movieId,

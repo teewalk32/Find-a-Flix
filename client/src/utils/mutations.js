@@ -25,7 +25,7 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_MOVIE = gql`
-  mutation addMovie($MovietText: String!) {
+  mutation addMovie($MovieText: String!) {
     addMovie(movieText: $movieText) {
       _id
       movieText

@@ -62,7 +62,7 @@ const MovieForm = () => {
 
   return (
     <div>
-      <h3>What would you like to watch?</h3>
+      <h3>Add Movie To Watch List</h3>
 
       {Auth.loggedIn() ? (
         <>
@@ -79,8 +79,8 @@ const MovieForm = () => {
           >
             <div className="col-12 col-lg-9">
               <textarea
-                name="thoughtText"
-                placeholder="Here's a new thought..."
+                name="movieText"
+                placeholder="Movie name here..."
                 value={movieText}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}

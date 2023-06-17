@@ -14,8 +14,8 @@ export const QUERY_USER = gql`
   }
 `;
 export const QUERY_MOVIES = gql`
-  query getmovies {
-    thoughts {
+  query getMovies {
+    movies {
       _id
       movieText
       movieName
@@ -25,7 +25,7 @@ export const QUERY_MOVIES = gql`
 `;
 export const QUERY_SINGLE_MOVIE = gql`
   query getSingleMovie($movieId: ID!) {
-    movie(MovieId: $movieId) {
+    movie(movieId: $movieId) {
       _id
       movieText
       movieName
@@ -45,7 +45,7 @@ export const QUERY_ME = gql`
       _id
       username
       email
-      reviews {
+      movies {
         _id
         movieText
         movieName
