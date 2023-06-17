@@ -27,6 +27,11 @@ body {
 main {
   display: block;
 }
+/* main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
+  gap: 10px; /* Add a gap between forms */
+/* } */ */
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -161,6 +166,7 @@ textarea {
   /* 1 */
   margin: 0;
   /* 2 */
+  
 }
 
 /**
@@ -351,6 +357,7 @@ END NORMALIZE CSS
 html,
 body {
   min-height: 100%;
+  background-color: #1a1a1a;
 }
 
 body {
@@ -360,7 +367,7 @@ body {
     Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   font-size: 16px;
-  color: #1a1a1a;
+  color: white;
 }
 
 h1,
@@ -423,12 +430,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: white;
   text-decoration: underline;
 }
 
