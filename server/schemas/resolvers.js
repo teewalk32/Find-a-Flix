@@ -22,7 +22,7 @@ const resolvers = {
         return User.findOne({ _id: context.user._id }).populate('movies');
       }
       throw new AuthenticationError('You need to be logged in!');
-    },
+    }
   },
 
   Mutation: {
