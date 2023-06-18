@@ -11,6 +11,7 @@ const typeDefs = gql`
 
   type Movie {
     _id: ID
+    poster: String
     movieText: String
     movieName: String
     createdAt: String
@@ -32,8 +33,8 @@ const typeDefs = gql`
   type Query {
     users: [User]
     user(username: String!): User
-    reviews(username: String): [Review]
-    review(reviewId: ID!): Review
+    movies(username: String): [Movie]
+    movie(movieId: ID!): Movie
     me: User
   }
 

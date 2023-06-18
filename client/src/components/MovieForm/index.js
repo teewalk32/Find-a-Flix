@@ -41,7 +41,8 @@ const MovieForm = () => {
       const { data } = await addMovie({
         variables: {
             movieText,
-            movieAuthor: Auth.getProfile().data.username,
+            // poster: poster._id,
+            movieName: Auth.getProfile().data.username,
         },
       });
 
@@ -54,7 +55,7 @@ const MovieForm = () => {
   const handleChange = (event) => {
     const { name, value } = event.target;
 
-    if (name === 'movieText' && value.length <= 280) {
+    if (name === 'movieText' && value.length <= 999) {
       setMovieText(value);
       setCharacterCount(value.length);
     }
@@ -62,25 +63,25 @@ const MovieForm = () => {
 
   return (
     <div>
-      <h3>What would you like to watch?</h3>
+      <h3>Add Movie To Watch List</h3>
 
       {Auth.loggedIn() ? (
         <>
           <p
             className={`m-0 ${
-              characterCount === 280 || error ? 'text-danger' : ''
+              characterCount === 999 || error ? 'text-danger' : ''
             }`}
           >
-            Character Count: {characterCount}/280
+            Character Count: {characterCount}/999
           </p>
           <form
             className="flex-row justify-center justify-space-between-md align-center"
             onSubmit={handleFormSubmit}
           >
-            <div className="col-12 col-lg-9">
+            <div className="col-sm-2">
               <textarea
-                name="thoughtText"
-                placeholder="Here's a new thought..."
+                name="movieText"
+                placeholder="Movie name here..."
                 value={movieText}
                 className="form-input w-100"
                 style={{ lineHeight: '1.5', resize: 'vertical' }}
@@ -88,13 +89,13 @@ const MovieForm = () => {
               ></textarea>
             </div>
 
-            <div className="col-12 col-lg-3">
+            <div className="col-sm-2">
               <button className="btn btn-primary btn-block py-3" type="submit">
                 Add Movie
               </button>
             </div>
             {error && (
-              <div className="col-12 my-3 bg-danger text-white p-3">
+              <div className="col-sm-2 bg-danger text-white p-3">
                 {error.message}
               </div>
             )}
@@ -107,6 +108,7 @@ const MovieForm = () => {
         </p>
       )}
     </div>
+    
   );
 };
 

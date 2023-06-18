@@ -9,10 +9,10 @@ import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
-// import Signup from './pages/signup';
+import Signup from './pages/Signup';
 import Login from './pages/Login';
-// import SingleThought from './pages/SingleThought';
-// import Profile from './pages/Profile';
+import SingleMovie from './pages/SingleMovie';
+import Profile from './pages/Profile';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -56,22 +56,22 @@ function App() {
                 path="/login" 
                 element={<Login />}
               />
-              {/* <Route 
+              <Route 
                 path="/signup" 
                 element={<Signup />}
-              /> */}
-              {/* <Route 
+              />
+              <Route 
                 path="/me" 
                 element={<Profile />}
-              /> */}
-              {/* <Route 
+              />
+              <Route 
                 path="/profiles/:username" 
                 element={<Profile />}
-              /> */}
-              {/* <Route 
+              />
+              <Route 
                 path="/movies/:movieId" 
                 element={<SingleMovie />}
-              /> */}
+              />
             </Routes>
           </div>
           <Footer />
