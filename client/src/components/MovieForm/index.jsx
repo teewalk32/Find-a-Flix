@@ -26,11 +26,11 @@ const MovieForm = () => {
       }
 
       // update me object's cache
-      const { me } = cache.readQuery({ query: QUERY_ME });
-      cache.writeQuery({
-        query: QUERY_ME,
-        data: { me: { ...me, movies: [...me.movies, addMovie] } },
-      });
+      // const { me } = cache.readQuery({ query: QUERY_ME });
+      // cache.writeQuery({
+      //   query: QUERY_ME,
+      //   data: { me: { ...me, movies: [...me.movies, addMovie] } },
+      // });
     },
   });
 
