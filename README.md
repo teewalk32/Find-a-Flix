@@ -71,8 +71,6 @@ No contributes needed for this project.
 ![alt text](assets/findflix.png)
 
 
-hhttps://find-a-flix-d1af28d73e3d.herokuapp.com/
 
-
-
+https://find-a-flix-d1af28d73e3d.herokuapp.com/
 
