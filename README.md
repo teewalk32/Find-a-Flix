@@ -11,26 +11,23 @@ As a group we were highly motivated to complete this project because this is our
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Wire-Frame](#wire-frame)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 - [Website](#website)
 
-## Wire-Frame
 
-![alt text](assets/images/screenshot.png)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Steps required to install this project. Download concurrently, package json, babel/plugin-proposal-private-property-in-object, graphql, jwt-decode, and node.
 
 ## Usage
 
 Signup for website by clicking signup. After being logged in you'll be able to search for moives to watch. Once user has found movie user will be able to see the movies rating and watch a video trailer. User will be able to save movies to a watch list if its something the user is interested in. Once user is ready to watch the movie the user will be able to see a webpage that has the movie availible for them to watch!
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/garphql.png)
 
 ## Credits
 
@@ -49,6 +46,13 @@ Terrell Whiting: https://github.com/grittyByt
 
 Tutorials with included links!
 
+lesson 26 from MERN class activites for website structure. Tevin
+
+https://stackoverflow.com/questions/44154939/load-local-images-in-react-js Tevin
+
+
+
+
 
 
 ## License
@@ -62,6 +66,10 @@ No contributes needed for this project.
 
 
 ## Website
+
+
+![alt text](assets/findflix.png)
+https://find-a-flix-22f1d9212f46.herokuapp.com/
 
 
 

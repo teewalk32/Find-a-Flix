@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 const startApolloServer = async () => {
   await server.start();
   server.applyMiddleware({ app });
-  
+  //  a port for the client and a different port for the server.
   db.once('open', () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
